@@ -25,7 +25,7 @@ class PublishAssetsCommand extends Command
      *
      * @return void
      */
-    public function fire()
+    public function handle()
     {
         $this->info('Publishing assets files');
         $this->call('vendor:publish', [
